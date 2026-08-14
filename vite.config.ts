@@ -4,6 +4,7 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/Scrooge-Financing/",
   plugins: [svelte()],
   // Under Vitest, resolve the browser build of Svelte components so lifecycle
   // hooks (onMount) actually run — the default SSR build skips them.
