@@ -1,4 +1,4 @@
-# ScroogeCorp Frontend
+# ScroogeCorp Frontend v1
 
 > Lives at `UI/ScroogeCorp/`. The `UI/` folder is the home for all frontend
 > projects, keeping the repo root clean (`APIs/`, `Core/`, `Infrastructure/`,
