@@ -1,0 +1,49 @@
+/* Global theme for the ScroogeCorp UI — Scrooge McDuck identity (top-hat black, coin gold,
+   coat red) mixed with the app's purple accent. Oswald display headlines, Inter body,
+   straight lines only. */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --accent: #7c3aed;
+  --accent-strong: #6d28d9;
+  --ink: #1f2430;
+  --muted: #6b7280;
+  --line: #e6e8ef;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --ok: #16a34a;
+  --ok-bg: #dcfce7;
+  --warn: #b45309;
+  --warn-bg: #fef3c7;
+  --bad: #dc2626;
+  --bad-bg: #fee2e2;
+  --info-bg: #ede9fe;
+
+  /* Scrooge identity */
+  --gold: #e5b80b;
+  --gold-deep: #9c6f00;
+  --gold-soft: #fbe7a1;
+  --hat-black: #15120e;
+  --coat-red: #c0392b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.display {
+  font-family: "Oswald", system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+button {
+  font-family: inherit;
+}
