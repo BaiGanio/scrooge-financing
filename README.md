@@ -11,7 +11,7 @@ that renders a financing request fetched from the BGAPI read side.
 
 ## Stack
 
-- **Svelte 4** (matches Mitigram's stack — plain Svelte, not SvelteKit; one component)
+- **Svelte 4** (plain Svelte, not SvelteKit; one component)
 - **Vite 5** dev server + build
 - **Vitest 2** + `@testing-library/svelte` (jsdom)
 - **TypeScript** — `FinancingRequestDto` is typed against the API read model
